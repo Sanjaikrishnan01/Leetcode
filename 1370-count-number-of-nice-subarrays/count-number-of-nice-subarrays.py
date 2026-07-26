@@ -23,7 +23,5 @@ class Solution(object):
                     left += 1
 
                 count += right - left + 1
-
             return count
-
         return atMost(k) - atMost(k - 1)
